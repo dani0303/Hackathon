@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main class="landing-main">
+        <div class="landing-navbar">
+            <a href="index.html"class="landing-title" >The Iceberg Crisis</a>
+            <span class="landing-line"></span>
+        </div>
+
+        <div class="landing-container">
+            <div class="main-text">
+
+                <p class="landing-subtitles">Our Mission</p>
+                <p >
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit porro aliquid, impedit ex beatae
+                    molestias, expedita esse saepe quis modi ut similique, ratione animi consequuntur aperiam ea! Iusto
+                    possimus ipsum officiis quam blanditiis cupiditate ipsa cumque reprehenderit suscipit! Nam, deleniti
+                    nisi quos minus at corporis, nulla recusandae sequi doloribus magnam consequatur accusamus ad? Ea,
+                    placeat ipsam? Eum hic animi, cupiditate non soluta molestias pariatur laboriosam accusantium sunt
+                    maiores. Voluptatem tenetur iure eum laudantium reiciendis ipsa dolores, expedita dolor assumenda
+                    optio ex perspiciatis veritatis sunt et ad porro ut illo, beatae blanditiis odit numquam ipsum at
+                    obcaecati. Cupiditate nobis consequuntur repellat?
+                </p>
+                
+            </div>
+            <ul id="content-tileTest">
+                <p class="landing-subtitles">News</p>
+                <li><a href="news.html"><img
+                            src="https://images.pexels.com/photos/694218/pexels-photo-694218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="" ></a></li>
+                <p class="landing-subtitles">Updates</p>
+                <li><a href="updates.html" target="_blank"><img
+                            src="https://cdn.britannica.com/67/156367-050-31221132/Glacier-Argentina-South-America-blue-ice.jpg"
+                            alt="" ></a></li>
+                <p class="landing-subtitles">Support</p>
+                <li><a href="support.html"><img
+                            src="https://images.unsplash.com/photo-1516569422572-d9e0514b9598?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2xhY2llcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                            alt="" ></a></li>
+            </ul>
+        </div>
+    </main>
+    <table>
+      {% for i in results %}
+      <tr>
+        <td>
+          {{ i [0]}}
+          {{ i [1]}}
+          {{ i [2]}}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
