@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+.landing-main {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.landing-title {
+    font-family: Chivo;
+    display: inline-block;
+    font-size: 2em;
+    user-select: none;
+    margin: 10px 25px;
+    color: #3FE73C;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.landing-navbar {
+    text-align: center;
+}
+.landing-container {
+    display: flex;
+    background-image: url(https://glife.com.my/wp-content/uploads/2019/10/Grey-Gradient-Background-300x136.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.noScroll{
+  overflow: hidden;
+}
+.landing-line {
+    border: 1px solid #000;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#landing-navbar {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#content-tile {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+      position: fixed;
+
+
+  }
+  #content-tileTest {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+.support-mainImage{
+  height: 440px;
+  width: 740px;
+}
+.main-text {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+  }
+ 
+
+#content-tile img {
+    height: 200px;
+    margin-right: 2vw;
+    margin-bottom: 10px;
+    position: fixed;
+    box-shadow: -5px 10px 10px #212121;
+    
+
+    
+}
+#content-tileTest img {
+  height: 200px;
+  margin-right: 2vw;
+  margin-bottom: 10px;
+  box-shadow: -5px 10px 10px #212121;
+  list-style-type: none;
+
+  
+}
+.img1{
+  top: 12%;
+
+}
+.img2{
+  top:42%
+}
+.img3{
+  top:72%;
+}
+
+#content-tile p {
+    text-align: center;
+
+}
+.landing-subtitles{
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: 600;
+    font-size: 2em;
+  color: #13d4be;
+  margin-bottom: 10px;
+  margin-right: 4vw;
+  margin-top: 0;
+}
+.landing-rightSubtitle1{
+  top: 7%;
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: 600;
+    font-size: 2em;
+  color: #13d4be;
+  margin-bottom: 10px;
+  margin-right: 4vw;
+  margin-top: 0;
+  position: fixed;
+}
+.landing-rightSubtitle2{
+  top: 37%;
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: 600;
+    font-size: 2em;
+  color: #13d4be;
+  margin-bottom: 10px;
+  margin-right: 4vw;
+  margin-top: 0;
+  position: fixed;
+}
+.landing-rightSubtitle3{
+  top: 67%;
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: 600;
+    font-size: 2em;
+  color: #13d4be;
+  margin-bottom: 10px;
+  margin-right: 4vw;
+  margin-top: 0;
+  position: fixed;
+}
+
+#top-btn {
+   
+  display: inline;
+  color: #212121;
+  background-color: #dedede;
+  border-radius: 15px;
+  padding: 10px;
+  margin: -45px 7px 15px 0px;
+  text-decoration: none;
+}
+    
