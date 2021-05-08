@@ -3,6 +3,7 @@ import csv, urllib.request
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def main():
     results = []
@@ -14,4 +15,4 @@ def main():
     for row in cr:
         results.append(row)
 
-    return render_template('table.html', results=results)
+    return render_template('index.html', 'news.html', 'support.html','table.html', results=results)
